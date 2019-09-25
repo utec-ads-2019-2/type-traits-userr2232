@@ -45,6 +45,7 @@ class TraitsList {
                 this->nodes--;
                 return true;
             }
+            return false;
         }  
 
         bool find(T data) {
